@@ -18,3 +18,6 @@ variable "common_tags" {
 variable "zone_name" {
   default = "lithesh.shop"
 }
+variable "app_version" {
+  type = string
+}
